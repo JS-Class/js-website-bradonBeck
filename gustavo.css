@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(41, 40, 40);
+    color: rgb(220, 228, 235);
+    font-family: 'Times New Roman', Georgia, Garamond;
+}
+
+
+header {
+    background-color: black;
+    color: rgb(114, 182, 241);
+    line-height: 5em;
+}
+#title {
+    margin-left: 3em;
+}
+
+main {
+    margin-left: 2em;
+    margin-right: 4em;
+    font-size: 1.25em;
+    
+}
+
+
+h4 {
+    margin-bottom: 0;
+}
+
+.subPoint {
+    margin-left: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    ;
+}
+
+.error {
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: .25em;
+}
