@@ -63,3 +63,21 @@ nav a:visited
 {
     color:white;
 }
+
+
+table
+{
+    border: solid 2px rgb(114, 182, 241);
+    border-collapse: collapse;
+}
+tr, td, th {
+    border: solid 2px rgb(114, 182, 241);
+    padding: 5px;
+    text-align: center;
+}
+th {
+    background-color: black;
+}
+caption{
+    margin: 7px;
+}
