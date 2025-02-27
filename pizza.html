@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="gustavo.css">
 </head>
 <body>
-
+ 
     <header>
         <h1 id="title">Coffee</h1>
     </header>
@@ -22,54 +22,58 @@
         </ul>
     </nav>
 
-
-    <form action="" method="post">
+    <p>The Brewster has a variety of coffee options that you can order online and have Gustavo bring to your table. Our coffees come in small, medium, large, and pizza</p>
+    <form action="fakeApp.js" method="post">
         Customer info: <br>
-        <label for="name">Name:</label>
+        <label for="name">Name:</label> <br>
         <input type="text" name="name" id="name" autofocus> <br>
-        <label for="address">Address:</label>
+        <label for="address">Address:</label><br>
         <input type="text" name="address" id="address"> <br>
-        <label for="phone">Phone Number:</label>
+        <label for="phone">Phone Number:</label><br>
         <input type="tel" name="phone" id="phone"> <br> <br>
 
         Sizes: <br>
-        <label for="small">small</label>
         <input type="radio" name="small" id="small">
-        <label for="medium">medium</label>
+        <label for="small">small</label>
         <input type="radio" name="medium" id="medium">
-        <label for="pizza">pizza</label>
-        <input type="radio" name="pizza" id="pizza"> <br>
-        Note: the only size available for your region is Pizza <br> <br>
+        <label for="medium">medium</label>
+        <input type="radio" name="large" id="large">
+        <label for="large">large</label>
+        <input type="radio" name="pizza" id="pizza">
+        <label for="pizza">pizza</label> <br>
+        <strong>Note:</strong> the only size available for your region is Pizza <br> <br>
 
         Milk: <br>
-        <label for="whole">whole milk</label>
         <input type="radio" name="whole" id="whole">
-        <label for="oat">oat milk</label>
+        <label for="whole">whole milk</label>
         <input type="radio" name="oat" id="oat">
-        <label for="almond">almond milk</label>
+        <label for="oat">oat milk</label>
         <input type="radio" name="almond" id="almond">
-        <label for="rat">rat milk</label>
+        <label for="almond">almond milk</label>
         <input type="radio" name="rat" id="rat">
-        <label for="none">none</label>
-        <input type="radio" name="none" id="none"> <br> <br>
+        <label for="rat">rat milk</label>
+        <input type="radio" name="none" id="none">
+        <label for="none">none</label> <br> <br>
 
         Toppings: <br>
-        <label for="peperoni">peperoni</label>
         <input type="checkbox" name="peperoni" id="peperoni">
-        <label for="mushroom">mushroom</label>
+        <label for="peperoni">peperoni</label>
         <input type="checkbox" name="mushroom" id="mushroom">
-        <label for="anchovies">anchovies</label>
+        <label for="mushroom">mushroom</label>
         <input type="checkbox" name="anchovies" id="anchovies">
-        <label for="cherry">cherry</label>
+        <label for="anchovies">anchovies</label>
         <input type="checkbox" name="cherry" id="cherry">
-        <label for="armaretto">armaretto</label>
+        <label for="cherry">cherry</label>
         <input type="checkbox" name="armaretto" id="armaretto">
-        <label for="white">white chocolate</label>
-        <input type="checkbox" name="white" id="white"> <br> <br>
+        <label for="armaretto">armaretto</label>
+        <input type="checkbox" name="white" id="white">
+        <label for="white">white chocolate</label><br> <br> <br> <br>
 
 
-        <label for="notes">Notes for the Chef</label>
-        <textarea name="notes" id="notes">Special Requests</textarea>
+        <label for="notes">Notes for the Chef: &emsp;</label>
+        <textarea name="notes" id="notes">Special Requests</textarea> <br> <br> <br>
+
+        <input type="button" name="Submit" id="Submit" value="Submit">
     </form>
 
 </body>

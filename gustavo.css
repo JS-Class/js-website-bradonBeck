@@ -81,3 +81,21 @@ th {
 caption{
     margin: 7px;
 }
+
+
+input 
+{
+    margin-left: 25px;
+    background-color: rgb(116, 17, 17);
+    color: rgb(220, 228, 235);
+}
+textarea
+{
+    vertical-align: top;
+    background-color: rgb(116, 17, 17);
+    color: rgb(220, 228, 235);
+}
+
+form strong {
+    color: rgb(190, 31, 31);
+}
