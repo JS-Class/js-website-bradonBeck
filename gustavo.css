@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(41, 40, 40);
+    color: rgb(220, 228, 235);
+    font-family: 'Times New Roman', Georgia, Garamond;
+}
+
+
+header {
+    background-color: black;
+    color: rgb(114, 182, 241);
+    line-height: 5em;
+}
+#title {
+    margin-left: 3em;
+}
+
+main {
+    margin-left: 2em;
+    margin-right: 4em;
+    font-size: 1.25em;
+    
+}
+
+
+h4 {
+    margin-bottom: 0;
+}
+
+.subPoint {
+    margin-left: 1em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    ;
+}
+
+.error {
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: .25em;
+}
+
+
+nav
+{
+    background-color: black;
+    line-height: 2em;
+    display: block;
+    color: white;
+}
+
+nav li
+{
+    display: inline;
+    padding-left: 4em;
+    list-style-type: none;
+}
+
+nav a:link
+{
+    color: white;
+}
+nav a:visited
+{
+    color:white;
+}
+
+
+table
+{
+    border: solid 2px rgb(114, 182, 241);
+    border-collapse: collapse;
+}
+tr, td, th {
+    border: solid 2px rgb(114, 182, 241);
+    padding: 5px;
+    text-align: center;
+}
+th {
+    background-color: black;
+}
+caption{
+    margin: 7px;
+}
+
+
+input 
+{
+    margin-left: 25px;
+    background-color: rgb(116, 17, 17);
+    color: rgb(220, 228, 235);
+}
+textarea
+{
+    vertical-align: top;
+    background-color: rgb(116, 17, 17);
+    color: rgb(220, 228, 235);
+}
+
+form strong {
+    color: rgb(190, 31, 31);
+}
