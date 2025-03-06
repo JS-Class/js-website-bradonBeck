@@ -4,6 +4,11 @@ body {
     font-family: 'Times New Roman', Georgia, Garamond;
 }
 
+#sicilyImg {
+    float: right;
+    margin: 20px;
+    margin-left: 50px;
+}
 
 header {
     background-color: black;
@@ -21,13 +26,21 @@ main {
     
 }
 
+p {
+    margin: 60px;
+    margin-bottom: 30px;
+}
 
+h3 {
+    margin-left: 60px;
+}
 h4 {
     margin-bottom: 0;
+    margin-left: 60px;
 }
 
 .subPoint {
-    margin-left: 1em;
+    margin-left: 85px;
     margin-top: .5em;
     margin-bottom: .5em;
     ;
