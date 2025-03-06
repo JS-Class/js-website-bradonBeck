@@ -80,6 +80,7 @@ nav a:visited
 
 table
 {
+    margin-left: 60px;
     border: solid 2px rgb(114, 182, 241);
     border-collapse: collapse;
 }
@@ -95,7 +96,9 @@ caption{
     margin: 7px;
 }
 
-
+form {
+    margin: 60px;
+}
 input 
 {
     margin-left: 25px;
