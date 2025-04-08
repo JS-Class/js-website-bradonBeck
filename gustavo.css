@@ -10,6 +10,30 @@ body {
     margin-left: 50px;
 }
 
+
+
+#familyHeader {
+    clear: right;
+}
+
+#familyAccordion {
+    margin: 60px;
+    margin-top: 10px;
+    background-color: rgb(41, 40, 40);
+}
+
+#familyAccordion div {
+    color: rgb(220, 228, 235);
+    background-color: rgb(41, 40, 40);
+}
+#familyAccordion h4 {
+    color: rgb(220, 228, 235);
+    background-color: black;
+}
+
+
+
+
 header {
     background-color: black;
     color: rgb(114, 182, 241);

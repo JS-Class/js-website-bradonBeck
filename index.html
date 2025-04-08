@@ -7,6 +7,7 @@
     <meta name="keywords" content="Fredrick, Gustavo, Fredrick Gustavo, Bradon Beck, dilapidated HVAC systems, Fred">
     <title>Fredrick Gustavo</title>
     <link rel="stylesheet" href="gustavo.css">
+    <link rel="stylesheet" href="jquery-ui-1.14.1.custom/jquery-ui.min.css">
 </head>
 
 <body>
@@ -45,38 +46,53 @@
         <br>
 
 
-        <h3>Family</h3>
+        <h3 id="familyHeader">Family</h3>
         <p class="subPoint">Fred has a beautiful family, consisting of 1 wife Dalia, 7 biological children, and 2 adopted cats.</p>
         
-        <h4>Dalia</h4>
-        <p class="subPoint">Dalia is an aerospace engineer for a local gas station. She grew up in Florida Ohio.</p>
-        
-        <h4>Boys</h4>
-        <p class="subPoint">Fred and Dalia have 4 1/2 boys </p>
-        <ul class="subPoint">
-            <li>Jame Jr.</li>
-            <li>Barney</li>
-            <li>Johnathan</li>
-            <li>Jame IV</li>
-            <li>&pound;&curren;<span class="error">&yen;&brvbar;&not;&sect;</span></li>
-        </ul>
-        
-        <h4>Girls</h4>
-        <p class="subPoint">Fred and Dalia have 2 1/2 girls</p>
-        <ul class="subPoint">
-            <li>Frederica</li>
-            <li>Paula</li>
-            <li>Abig</li>
-        </ul>
-        
-        <h4>Pets</h4>
-        <p class="subPoint">The Gustavos have no cats</p>
-        <ul class="subPoint">
-            <li>Fluffy</li>
-            <li>Mittens</li>
-            <li>Jame VII</li>
-        </ul>
+        <div id="familyAccordion">
+            <h4>Dalia</h4>
+            <div>
+                <p class="subPoint">Dalia is an aerospace engineer for a local gas station. She grew up in Florida Ohio.</p>
+            </div>
 
+            <h4>Boys</h4>
+            <div>
+                <p class="subPoint">Fred and Dalia have 4 1/2 boys </p>
+                <ul class="subPoint">
+                    <li>Jame Jr.</li>
+                    <li>Barney</li>
+                    <li>Johnathan</li>
+                    <li>Jame IV</li>
+                    <li>&pound;&curren;<span class="error">&yen;&brvbar;&not;&sect;</span></li>
+                </ul>
+            </div>
+            
+            <h4>Girls</h4>
+            <div>
+                <p class="subPoint">Fred and Dalia have 2 1/2 girls</p>
+                <ul class="subPoint">
+                    <li>Frederica</li>
+                    <li>Paula</li>
+                    <li>Abig</li>
+                </ul>
+            </div>
+            
+            <h4>Pets</h4>
+            <div>
+                <p class="subPoint">The Gustavos have no cats</p>
+                <ul class="subPoint">
+                    <li>Fluffy</li>
+                    <li>Mittens</li>
+                    <li>Jame VII</li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="jquery-ui-1.14.1.custom/external/jquery/jquery.js"></script>
+	    <script src="jquery-ui-1.14.1.custom/jquery-ui.min.js"></script>
+        <script>
+            $( "#familyAccordion" ).accordion();
+        </script>
     </main>
 
 </body>
